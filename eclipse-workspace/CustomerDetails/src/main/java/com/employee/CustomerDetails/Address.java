@@ -1,6 +1,11 @@
 package com.employee.CustomerDetails;
 
 public class Address {
+	@Override
+	public String toString() {
+		return "Address [street=" + street + ", city=" + city + ", state=" + state + ", Zip=" + Zip + ", country="
+				+ country + "]";
+	}
 	private String street;
 	private String city;
 	private String state;

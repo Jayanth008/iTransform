@@ -31,5 +31,11 @@ public class Customer {
 		this.address = address;
 	}
 	
+	@Override
+	public String toString() {
+		return "Customer [CustomerId=" + CustomerId + ", CustomerName=" + CustomerName + ", CustomerContact="
+				+ CustomerContact + ", address=" + address + "]";
+	}
+	
 	
 }
